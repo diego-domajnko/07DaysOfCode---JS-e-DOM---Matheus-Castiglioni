@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>07 Days of Code - JS e DOM</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <main class="conteudo">
+    <div class="caixa">
+      <img src="./img/logo.png" alt="Logo do desafio 7 dias de código" class="logo">
+      <form action="#" method="get" class="formulario">
+        <h1 class="titulo"><a href="index.html">Cadastro de pessoas</a></h1>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" minlength="3" maxlength="120" pattern="([aA-zZ]+)" required>
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date" name="nascimento" id="nascimento" required>
+        <div class="botoes">
+          <input type="submit" value="Enviar formulário" aria-label="Enviar fomrulário" class="botao submit">
+          <input type="button" value="Limpar dados" class="botao limpar" aria-label="Limpar dados">
+        </div>
+      </form>
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Nascimento</th>
+            <th>Alterar</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <img src="./img/alura.png" alt="Logo da Alura" class="logo-alura">
+    </div>
+  </main>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
