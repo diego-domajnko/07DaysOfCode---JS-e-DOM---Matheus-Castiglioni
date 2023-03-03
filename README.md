@@ -3,7 +3,7 @@
 ![Badge concluido](https://img.shields.io/badge/STATUS-Em%20processo-green)
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/120414128/218767290-09dbf095-d335-4cc3-b038-cf3f1e866043.png">
+  <img src="https://user-images.githubusercontent.com/120414128/218767290-09dbf095-d335-4cc3-b038-cf3f1e866043.png#vitrinedev">
 </p>
 
 <h2>:open_file_folder: Descrição</h2>
